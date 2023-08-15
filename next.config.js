@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  basePath: "/project/codebeis",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
