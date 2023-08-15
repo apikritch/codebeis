@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "../assets/scss/fonts.scss";
+@import "../assets/scss/variables.scss";
+
+.logo-font {
+  font-family: $logo-font;
+}
+
+.header-font {
+  font-family: $header-font;
+}
+
+.normal-font {
+  font-family: $normal-font;
+}
