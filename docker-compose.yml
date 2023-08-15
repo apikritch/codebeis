@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  codebeis-website:
+    image: codebeis:website
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: codebeis-website
+    restart: always
+    ports: ["8086:3000"]
+    working_dir: /client
+    volumes:
+      - ./client/.next:/client/.next
