@@ -11,4 +11,4 @@ services:
     ports: ["8086:3000"]
     working_dir: /client
     volumes:
-      - ./client/.next:/client/.next
+      - ./.next:/client/.next
